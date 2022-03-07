@@ -1,11 +1,12 @@
 include <iostream>
 include <string>
-using namespace std;
 
 int main(){
 	string name;
-	cout<<"enter your name"<<endl;
-	cin>>name;
-	cout<<"Hello world from "<<name;
+
+	std::cout<<"enter your name"<<std::endl;
+	std::cin>>name;
+	std::cout<<"Hello world from "<<name;
+
 	return 0;
 }
