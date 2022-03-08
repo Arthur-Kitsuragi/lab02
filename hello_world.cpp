@@ -2,9 +2,9 @@ include <iostream>
 include <string>
 
 int main(){
-	string name; //note1
+	string name; //заметка1,,
 
-	std::cout<<"enter your name"<<std::endl; //note2
+	std::cout<<"enter your name"<<std::endl; //заметка2,,,,,
 	std::cin>>name;
 	std::cout<<"Hello world from "<<name;
 
